@@ -50,10 +50,10 @@ public class XO {
             checkHorDot = 0;
             checkVerDot = 0;
             for (int j = 0; j < map[i].length; j++) {
-                if (map[i][j] == dot) { // проверка победу
+                if (map[i][j] == dot) { // horizontal
                     checkHorDot++;
                 }
-                if (map[j][i] == dot) { // проверяем вертикальные линии на возможную победу
+                if (map[j][i] == dot) { // vertical
                     checkVerDot++;
                 }
 
